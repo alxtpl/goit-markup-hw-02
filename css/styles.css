@@ -1,0 +1,18 @@
+/* background: #212121;t
+background: #FFFFFF;t
+background: #757575;t
+background: #2196F3;t
+
+background: #000000;t
+background: #F5F4FA;t
+background: rgba(255, 255, 255, 0.6) ;t
+ */
+:root {
+  --first-text-color: #212121;
+  --second-text-color: #ffffff;
+  --third-text-color: #757575;
+  --fourth-text-color: #2196f3;
+  --fifth-text-color: #000000;
+  --sixth-text-color: #f5f4fa;
+  --seventh-text-color: rgba(255, 255, 255, 0.6);
+}
