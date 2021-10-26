@@ -19,4 +19,110 @@ font-family: 'Roboto', sans-serif; */
   --fifth-text-color: #000000;
   --sixth-text-color: #f5f4fa;
   --seventh-text-color: rgba(255, 255, 255, 0.6);
+  --eights-text-color: #2f303a;
+}
+body {
+  background-color: var(--second-text-color);
+  color: var(--third-text-color);
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  font-size: 14px;
+  line-height: 1.7;
+  list-style: none;
+}
+
+.hightitle,
+.whatwedotitle,
+.teamtitle,
+.teammember {
+  color: var(--first-text-color);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* Logo */
+
+.logo {
+  font-size: 26px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  color: var(--fifth-text-color);
+}
+
+/* Buttons */ /* Contacts */
+
+.buttons {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.linkcolor {
+  color: var(--first-text-color);
+}
+.contactcolor {
+  color: var(--third-text-color);
+}
+.linkcolor:hover,
+.contactcolor:hover,
+.logoweb {
+  color: var(--fourth-text-color);
+}
+/* Order banner */
+.banerbgcolor {
+  background-color: var(--eights-text-color);
+  /* сделал чтоб видно было текст */
+}
+.banertitle,
+.banerbutton,
+.adress {
+  color: var(--second-text-color);
+}
+.banertitle {
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.banerbutton {
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+/* Highlights */
+.hightitle {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/* What we do */
+.whatwedotitle,
+.teamtitle {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* Team */
+.teammember,
+.teamrole {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Contacts */
+.contacts {
+  color: var(--seventh-text-color);
 }
