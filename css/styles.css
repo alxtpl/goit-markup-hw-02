@@ -70,7 +70,8 @@ a {
 }
 .linkcolor:hover,
 .contactcolor:hover,
-.logoweb {
+.logoweb,
+.current {
   color: var(--fourth-text-color);
 }
 /* Order banner */
@@ -126,3 +127,5 @@ a {
 .contacts {
   color: var(--seventh-text-color);
 }
+
+/* Portfolio page */
