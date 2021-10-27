@@ -58,7 +58,6 @@ a {
 /* Buttons */ /* Contacts */
 
 .buttons {
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -81,7 +80,8 @@ a {
 }
 .banertitle,
 .banerbutton,
-.adress {
+.adress,
+.portmain button:hover {
   color: var(--second-text-color);
 }
 .banertitle {
@@ -92,6 +92,7 @@ a {
   text-transform: uppercase;
 }
 .banerbutton {
+  background-color: var(--fourth-text-color);
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -101,7 +102,6 @@ a {
 }
 /* Highlights */
 .hightitle {
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -128,4 +128,31 @@ a {
   color: var(--seventh-text-color);
 }
 
+/* -------------------------------------- */
 /* Portfolio page */
+
+body .portmain {
+  color: var(--first-text-color);
+  font-family: Raleway, sans-serif;
+}
+.portmain button {
+  background-color: var(--fourth-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.portmain h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portmain p {
+  color: var(--third-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
