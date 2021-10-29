@@ -82,7 +82,7 @@ a {
 .banerbutton,
 .adress,
 .studio,
-.portmain button:hover {
+.portbody button:hover {
   color: var(--second-text-color);
   font-style: normal;
 }
@@ -143,6 +143,8 @@ a {
 .portbody button {
   background-color: var(--sixth-text-color);
   color: var(--first-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
