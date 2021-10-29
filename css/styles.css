@@ -81,8 +81,10 @@ a {
 .banertitle,
 .banerbutton,
 .adress,
+.studio,
 .portmain button:hover {
   color: var(--second-text-color);
+  font-style: normal;
 }
 .banertitle {
   font-size: 44px;
@@ -103,6 +105,7 @@ a {
 }
 /* Highlights */
 .hightitle {
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -131,29 +134,36 @@ a {
 
 /* -------------------------------------- */
 /* Portfolio page */
-
-body .portmain {
+.portbody {
   color: var(--first-text-color);
   font-family: Raleway, sans-serif;
-}
-.portmain button {
-  background-color: var(--fourth-text-color);
   font-weight: 700;
+}
+
+.portbody button {
+  background-color: var(--sixth-text-color);
+  color: var(--first-text-color);
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border-style: none;
+  border-radius: 4px;
 }
-.portmain h2 {
+.portbody button:hover,
+.portbody button:focus {
+  background-color: var(--fourth-text-color);
+  box-shadow: 0 4px 2px -1px rgba(172, 186, 198, 0.418);
+}
+.portbody h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.portmain p {
+.portbody p {
   color: var(--third-text-color);
-  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
