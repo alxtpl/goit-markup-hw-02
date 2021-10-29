@@ -49,6 +49,8 @@ a {
 /* Logo */
 
 .logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.15;
   letter-spacing: 0.03em;
@@ -87,6 +89,8 @@ a {
   font-style: normal;
 }
 .banertitle {
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
@@ -95,6 +99,8 @@ a {
 }
 .banerbutton {
   background-color: var(--fourth-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -126,24 +132,27 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.teamrole {
+  font-weight: 400;
+}
 
 /* Contacts */
 .contacts {
   color: var(--seventh-text-color);
 }
-
+main p {
+  font-weight: 400;
+}
 /* -------------------------------------- */
 /* Portfolio page */
 .portbody {
   color: var(--first-text-color);
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
 }
 
 .portbody button {
   background-color: var(--sixth-text-color);
   color: var(--first-text-color);
-  font-family: Raleway, sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.62;
@@ -159,13 +168,14 @@ a {
   box-shadow: 0 4px 2px -1px rgba(172, 186, 198, 0.418);
 }
 .portbody h2 {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .portbody p {
   color: var(--third-text-color);
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
