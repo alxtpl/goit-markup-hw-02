@@ -84,7 +84,8 @@ a {
 .banerbutton,
 .adress,
 .studio,
-.portbody button:hover {
+.portbody button:hover,
+.portbody button:focus {
   color: var(--second-text-color);
   font-style: normal;
 }
@@ -153,7 +154,7 @@ main p {
   background-color: var(--sixth-text-color);
   color: var(--first-text-color);
   font-family: Roboto, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
